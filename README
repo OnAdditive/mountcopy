@@ -29,6 +29,23 @@ Function
 Installation
 ============
 
+
+cd
+
+git clone https://github.com/DrumClock/mount_copy.git
+
+cd mount_copy
+
+sudo cp 99-mountcopy.rules /etc/udev/rules.d/
+
+sudo cp mountcopy /usr/bin
+
+sudo chmod +x /usr/bin/mountcopy
+
+sudo udevadm control --reload-rules && sudo udevadm trigger
+
+
+
 1. Copy the file "99-mountcopy.rules" to the folder "/etc/udev/rules.d"
     sudo cp 99-mountcopy.rules /etc/udev/rules.d/
 
