@@ -34,7 +34,7 @@ cd
 
 git clone https://github.com/OnAdditive/mountcopy.git
 
-cd mount_copy
+cd mountcopy
 
 sudo cp 99-mountcopy.rules /etc/udev/rules.d/
 
