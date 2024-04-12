@@ -32,7 +32,7 @@ Installation
 
 cd
 
-git clone https://github.com/DrumClock/mount_copy.git
+git clone https://github.com/OnAdditive/mountcopy.git
 
 cd mount_copy
 
